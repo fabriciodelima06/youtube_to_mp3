@@ -17,6 +17,9 @@ function App() {
   return (
     <>
       <NavBar />
+      <iframe name="Play" src="https://sinalpublico.com/player3/ch.php?canal=sbt" 
+        height='400' width='640' allowFullScreen> 
+        </iframe>
       <YoutubeToMp3 />
     </>
   );
